@@ -142,7 +142,7 @@ public class UserInterface {
         System.out.print("Enter Price: ");
         double price = inputScanner.nextDouble();
         inputScanner.nextLine();
-        Vehicle vehicle = new Vehicle(vin, year, make, model, type, color, odometer, price);
+        Vehicle vehicle = new Vehicle(vin, year, make, model, type, color, odometer, price, sold);
         dealership.addVehicle(vehicle);
         fileManager.saveDealership(dealership);
     }

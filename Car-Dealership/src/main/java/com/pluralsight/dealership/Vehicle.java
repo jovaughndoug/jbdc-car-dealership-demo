@@ -68,7 +68,7 @@ public class Vehicle {
         return price;
     }
 
-    public Vehicle(Integer vin, Integer year, String make, String model, String vehicleType, String color, Integer odometer, Double price) {
+    public Vehicle(Integer vin, Integer year, String make, String model, String vehicleType, String color, Integer odometer, Double price, boolean sold) {
         this.vin = vin;
         this.year = year;
         this.make = make;

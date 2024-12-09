@@ -31,7 +31,7 @@ public class DealershipFileManager {
                     String color = dataParts[5];
                     int odometer = Integer.parseInt(dataParts[6]);
                     double price = Double.parseDouble(dataParts[7]);
-                    dealership.addVehicle(new Vehicle(vin, year, make, model, vehicleType, color, odometer, price));
+                    dealership.addVehicle(new Vehicle(vin, year, make, model, vehicleType, color, odometer, price, sold));
                 } catch (Exception e) {
                     System.out.println(" Data Part isn't valid for vehicle");
                 }
